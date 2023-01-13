@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-react-starter';
+  title = 'angular-inmo';
   version = 'Angular version 15.0.0';
 }
