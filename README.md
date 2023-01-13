@@ -1,11 +1,14 @@
-# AngularInmo
+# Angular 15, React and Bootstrap Project
 
-## Angular Bootstrap Project 
+
 
 <table>
 <tr>
 <td>
-### Project Characteristics:
+
+This project is designed to create a ** Web Application with Angular 15** 
+
+Project Characteristics:
 
 * Generated with Angular CLI
 * Routing
