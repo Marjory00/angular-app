@@ -10,6 +10,9 @@ import { LoginComponent } from './modules/general/login/login.component';
 import { SignupComponent } from './modules/general/signup/signup.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 import { ContactModule } from './modules/general/contact/contact.module';
+import { LoginModule } from './modules/general/login/login.module';
+import { SignupModule } from './modules/general/signup/signup.module';
+import { AboutModule } from './modules/general/about/about.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ContactModule } from './modules/general/contact/contact.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ContactModule
+    ContactModule,
+    LoginModule,
+    SignupModule,
+    AboutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
