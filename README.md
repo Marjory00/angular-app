@@ -2,17 +2,23 @@
 
 ## Angular Bootstrap Project 
 
+<table>
+<tr>
+<td>
 ### Project Characteristics:
--Generated with Angular CLI
--Routing
--Lazy Loading
--Framework CSS Bootstrap
--Server Side Rendering
--HttpCLient
--Frontend
--Backend
 
+* Generated with Angular CLI
+* Routing
+*  Lazy Loading
+* Framework CSS Bootstrap
+* Server Side Rendering
+* HttpCLient
+* Frontend
+* Backend
 
+</td>
+</tr>
+</table>
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
