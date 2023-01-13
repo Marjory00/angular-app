@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-react-starter": {
+    "angular-inmo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,21 +13,27 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-react-starter",
+            "outputPath": "dist/angular-inmo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/params/css/fonts.googleapis.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -60,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-react-starter:build:production"
+              "browserTarget": "angular-inmo:build:production"
             },
             "development": {
-              "browserTarget": "angular-react-starter:build:development"
+              "browserTarget": "angular-inmo:build:development"
             }
           },
           "defaultConfiguration": "development"
