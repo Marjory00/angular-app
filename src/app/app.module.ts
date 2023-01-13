@@ -9,6 +9,7 @@ import { AboutComponent } from './modules/general/about/about.component';
 import { LoginComponent } from './modules/general/login/login.component';
 import { SignupComponent } from './modules/general/signup/signup.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
+import { ContactModule } from './modules/general/contact/contact.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ContactModule
   ],
   providers: [],
   bootstrap: [AppComponent]
