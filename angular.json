@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-inmo": {
+    "angular-react-bootstrap": {
       "projectType": "application",
       "schematics": {},
       "root": "",
