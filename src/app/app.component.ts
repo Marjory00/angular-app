@@ -13,6 +13,8 @@ export class AppComponent implements OnInit{
   title = 'angular-react-bootstrap';
   version = 'Angular version 15.0.0';
   footerUrl =  "https://github.com/Marjory00/";
+  footerLink= 'https://github.com/Marjory00/';
+
   this = [];
   isBrowser: boolean;
 

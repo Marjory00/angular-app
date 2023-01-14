@@ -1,96 +1,78 @@
 
-/* Navbar */
 .navbar .navbar-dark .navbar-nav .nav-item .nav-link {
-    color: white;
-    font-weight: 500;
-    border-top: 1px solid #09238d;
-    border-bottom: 1px solid #09238d;
+  color: white;
+  font-weight: 500;
+  border-top: 1px solid #09238d;
+  border-bottom: 1px solid #09238d;
 }
 
 .nga-navbar {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
-    background-color: #09238d;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #2d344e;
 }
 
 
 .nga-navbar-logo {
-    font-weight: 700;
-  }
-  
-  .nga-navbar-logo:hover {
-    color: rgba(255, 255, 255, 0.75);
-  }
-  
-  
-  .nga-btn-navbar {
-    color: #fff;
-    background-color: #1976d2;
-    border-color: #0d6efd;
-  }
-  
-  .nga-btn-navbar:hover {
-    color: white;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
-  }
-  
-  .nga-logo {
-    font-weight: 700;
-  }
-  
-  .nga-logo:hover {
-    color: rgba(255, 255, 255, 0.75);
-  }
-  
-  /* Footer */
-  .nga-footer {
-    background-color: #212121;
-    color: white;
-  }
-  
-  .nga-footer a {
-    color: white;
-    text-decoration: none
-  }
-  
-  .nga-footer a:hover,
-  .nga-footer a:focus {
-    color: yellow;
-    text-decoration: underline;
-  }
-  
-  .nga-footer .hint {
-    background-color: #1976d2;
-  }
-  
-  .nga-footer .hint:hover {
-    opacity: 0.8;
-  }
+  font-weight: 700;
+}
 
-  /* Card */
-  .nga-card {
-    display: block;
-    background-color: rgba(255, 255, 255, .8);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
-    border-radius: 2px;
-    transition: all .2s ease-in-out;
-    cursor: pointer;
-  }
-  
-  .nga-card:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
-  }
+.nga-navbar-logo:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
 
 
-/* Other */
-  
+.nga-btn-navbar {
+  color: #fff;
+  background-color: #1976d2;
+  border-color: #0d6efd;
+}
+
+.nga-btn-navbar:hover {
+  color: white;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.nga-logo {
+  font-weight: 700;
+}
+
+.nga-logo:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.nga-footer {
+  background-color: #212121;
+  color: white;
+}
+
+.nga-footer a {
+  color: white;
+  text-decoration: none
+}
+
+.nga-footer a:hover,
+.nga-footer a:focus {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.nga-footer .hint {
+  background-color: #1976d2;
+}
+
+.nga-footer .hint:hover {
+  opacity: 0.8;
+}
+
+
 h1 {
-    color: blue
+  color: rgb(237, 237, 239)
 }
 
 .app {
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 1000px;
-    margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+  margin: auto;
 }

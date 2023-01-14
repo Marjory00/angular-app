@@ -5,27 +5,49 @@
       <img src="https://i.postimg.cc/C1B6tm84/logo.png" width="95" height="95" alt="Logo">
       <span class="nga-logo mx-1">Logo</span>
       </a>
-      
-    </nav>
-    <section>
-      <h1>{{ title }}</h1>
-      <h2> {{ version }}</h2>
-    </section>
-    <nav>
-      <ul>
-        <li><a routerLink="/">Home</a></li>
-        <li><a routerLink="/about">About</a></li>
-        <li><a routerLink="/about">Contact</a></li>
-        <li><a routerLink="/about">Login</a></li>
-        <li><a routerLink="/about">Signup</a></li>
-      </ul>
-    </nav>
-  </header>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-taget="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+  <ul class="navbar-nav mx-auto">
+    <li class="nav-item">
+      <a class="nav-link nga-nav-link" aria-current="page" routerLink="/">
+        <i class="fas fa-home me-1"></i> Home</a>
+    </li>
+  </ul>
+  <ul class="navbar-nav me-auto">
+    <li class="nav-item">
+      <a class="nav-link nga-nav-link" aria-current="page" routerLink="/about">
+        <i class="fas fa-question-circle me-1"></i> About</a>
+    </li>
+ 
+    <li class="nav-item">
+      <a class="nav-link nga-nav-link" aria-current="page" routerLink="/contact">
+        <i class="fas fa-envelope me-1"></i> Contact</a>
+    </li>
+  </ul>
+  
+   <form class="d-flex">
+    <button type="button" class="btn btn-sm btn-primary me-2" routerLink="/signup">
+      <i class="fas fa-user-plus me-2"></i>Sign Up
+    </button>
+    <button type="button" class="btn btn-sm btn-outline-light me-2" routerLink="/login">
+      <i class="fas fa-sign-in-alt me-2"></i> Login
+    </button>
+   </form>
 
+ </div>
+</nav>
+</header>
   <main>
     <router-outlet></router-outlet>
   </main>
-  
-  <footer>
-    <a href="https://github.com/Marjory00/">2023 - Marjory Marquez</a>
+
+  <footer class="nga-footer">
+    <div class="py-3 text-center" style="background-color: grey;">
+      <div class="container">
+    <a href="{{ footerUrl }}">{{ footerLink }}</a>
+  </div>
+</div>
   </footer>

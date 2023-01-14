@@ -1,6 +1,6 @@
 
 .navbar .navbar-dark .navbar-nav .nav-item .nav-link {
-    color: white;
+    color: #fff;
     font-weight: 500;
     border-top: 1px solid #09238d;
     border-bottom: 1px solid #09238d;
@@ -9,7 +9,7 @@
 .nga-navbar {
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
-    background-color: #09238d;
+    background-color: #2d344e;
 }
 
 
@@ -34,6 +34,7 @@
     border-color: #0a58ca;
   }
   
+  /* Logo */
   .nga-logo {
     font-weight: 700;
   }
@@ -42,9 +43,16 @@
     color: rgba(255, 255, 255, 0.75);
   }
   
+  /* footer */
   .nga-footer {
     background-color: #212121;
     color: white;
+    margin-bottom: 0;
+    margin-top: auto;
+    position:absolute;
+    bottom:0;
+    width:100%;
+   height:70px;   /* Height of the footer */
   }
   
   .nga-footer a {
@@ -68,7 +76,7 @@
 
   
 h1 {
-    color: blue
+    color: rgb(237, 237, 239)
 }
 
 .app {
