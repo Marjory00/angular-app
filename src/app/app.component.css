@@ -1,4 +1,4 @@
-
+/* navbar */
 .navbar .navbar-dark .navbar-nav .nav-item .nav-link {
     color: #fff;
     font-weight: 500;
@@ -12,16 +12,6 @@
     background-color: #2d344e;
 }
 
-
-.nga-navbar-logo {
-    font-weight: 700;
-  }
-  
-  .nga-navbar-logo:hover {
-    color: rgba(255, 255, 255, 0.75);
-  }
-  
-  
   .nga-btn-navbar {
     color: #fff;
     background-color: #1976d2;
@@ -34,14 +24,19 @@
     border-color: #0a58ca;
   }
   
+  
   /* Logo */
   .nga-logo {
     font-weight: 700;
   }
-  
   .nga-logo:hover {
     color: rgba(255, 255, 255, 0.75);
   }
+
+  .nga-navbar-logo:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
   
   /* footer */
   .nga-footer {
