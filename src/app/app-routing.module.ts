@@ -11,17 +11,18 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 
 const routes: Routes = [
   {path: '', component: HomeComponent, },
+
+  {
+    path: 'about',
+      loadChildren: () => import('./modules/general/about/about.module')
+      .then(mod => mod.AboutModule)
+    },
+  
   {
     path: 'contact',
     loadChildren:() => import('./modules/general/contact/contact.module')
     .then(mod => mod.ContactModule)
   },
-  {
-  path: 'about',
-    loadChildren:() => import('./modules/general/about/about.module')
-    .then(mod => mod.AboutModule)
-  },
-
   {
     path: 'login',
     loadChildren:() => import('./modules/general/login/login.module')
