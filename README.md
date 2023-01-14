@@ -3,6 +3,9 @@
 
  # angular-react-bootstrap
 
+ ## Please also check for angular-react-bootstrap-part-02
+
+
 <table>
 <tr>
 <td>
