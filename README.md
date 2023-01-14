@@ -3,8 +3,6 @@
 
  # angular-react-bootstrap
 
- ## Please also check for angular-react-bootstrap-part-2
-
 
 <table>
 <tr>
