@@ -10,7 +10,7 @@ import { isPlatformBrowser } from '@angular/common';
 export class AppComponent implements OnInit{
 
  
-  title = 'angular-inmo';
+  title = 'angular-react-bootstrap';
   version = 'Angular version 15.0.0';
   footerUrl =  "https://github.com/Marjory00/";
   this = [];

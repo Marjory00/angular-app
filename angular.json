@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-inmo",
+            "outputPath": "dist/angular-react-bootstrap",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-inmo:build:production"
+              "browserTarget": "angular-react-bootstrap:build:production"
             },
             "development": {
-              "browserTarget": "angular-inmo:build:development"
+              "browserTarget": "angular-react-bootstrap:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-inmo:build"
+            "browserTarget": "angular-react-bootstrap:build"
           }
         },
         "test": {
