@@ -37,14 +37,36 @@
     color: rgba(255, 255, 255, 0.75);
   }
   
+  /* Card */
+  .nga-card {
+    border: 1-x solid rgba(0, 0,  0.125);
+    border-radius: 0.25rem;
+  }
+
+  .nga-card a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
   
+  .nga-card a:hover {
+    color: #0d6efd;
+  }
+
+
+.nga-card:hover {
+  border: 1px solid #99ccff;
+  color: #0d6efd;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
   /* footer */
   .nga-footer {
     background-color: #212121;
     color: white;
     margin-bottom: 0;
     margin-top: auto;
-    position:absolute;
+    position:relative;
     bottom:0;
     width:100%;
    height:70px;   /* Height of the footer */

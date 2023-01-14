@@ -7,6 +7,10 @@ import { Inject, PLATFORM_ID } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+name: any;
+version: any;
+bootstrap: any;
+fontawesome: any;
   
 
   constructor(
