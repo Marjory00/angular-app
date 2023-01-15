@@ -1,8 +1,9 @@
-# Angular 15, React and Bootstrap Project
+# Angular 15 Project
 
+## Description:
+Angular App project. Generated with Angular CLI, Routing, Lazy Loading, Framework CSS Bootstrap, Server Side Rendering, HttpClient.
 
- # angular-react-bootstrap
-
+ # angular-app-inmo
 
 <table>
 <tr>
