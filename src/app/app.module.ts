@@ -15,7 +15,7 @@ import { ItemsModule } from './modules/application/items/items.module';
         AppComponent,
         HomeComponent,
         NotFoundComponent,
-        ItemsComponent,
+       
         
     ],
     providers: [],
