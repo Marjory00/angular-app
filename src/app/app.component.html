@@ -1,58 +1,49 @@
-
-  <header class="navbar navbar-expand-md navbar-dark fixed-top nga-navbar">
-    <nav class="container" aria-label="Main navigation">
-      <a routerLink="/" class="navbar-brand" alt="Logo" aria-label="Web">
-      <img src="https://i.postimg.cc/C1B6tm84/logo.png" width="95" height="95" alt="Logo">
-      <span class="nga-logo mx-1">Logo</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-taget="#navbarCollapse"
+<header class="navbar navbar-expand-md navbar-dark fixed-top nga-navbar">
+  <nav class="container" aria-label="Main navigation">
+    <a routerLink="/" class="navbar-brand" alt="Accueil" aria-label="Ganatan">
+      <img src="./assets/params/images/logo/logo.png" srcset="./assets/params/images/logo/logo.png,
+      ./assets/params/images/logo/logo.png 2x" width="25" height="25" alt="Logo">
+      <span class="nga-logo mx-1">logo</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-  <ul class="navbar-nav mx-auto" routerLinkActive="active">
-    <li class="nav-item">
-      <a class="nav-link nga-nav-link" aria-current="page" routerLink="/">
-        <i class="fas fa-home me-1"></i> Home</a>
-    </li>
- 
-    <li class="nav-item">
-      <a class="nav-link nga-nav-link" aria-current="page" routerLink="about">
-        <i class="fas fa-question-circle me-1"></i> About</a>
-    </li>
- 
-    <li class="nav-item">
-      <a class="nav-link nga-nav-link" aria-current="page" routerLink="contact">
-        <i class="fas fa-envelope me-1"></i> Contact</a>
-    </li>
-  </ul>
-  
-   <form class="d-flex">
-    <button type="button" class="btn btn-sm btn-primary me-2" routerLink="/signup">
-      <i class="fas fa-user-plus me-2"></i>Sign Up
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <button type="button" class="btn btn-sm btn-outline-light me-2" routerLink="/login">
-      <i class="fas fa-sign-in-alt me-2"></i> Login
-    </button>
-   </form>
-
- </div>
-</nav>
-
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link nga-nav-link" aria-current="page" routerLink="/">
+            <i class="fas fa-home me-1"></i>Home</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link nga-nav-link" aria-current="page" routerLink="/about">
+            <i class="far fa-question-circle me-1"></i>About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nga-nav-link" aria-current="page" routerLink="/contact">
+            <i class="fas fa-envelope me-1"></i>Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button type="button" class="btn btn-sm btn-primary me-2" routerLink="/signup"><i
+            class="fas fa-user-plus me-2"></i>Sign up</button>
+        <button type="button" class="btn btn-sm btn-outline-light me-2" routerLink="/login"><i
+            class="fas fa-sign-in-alt me-2"></i>Login</button>
+      </form>
+    </div>
+  </nav>
 </header>
 
-
-  <main>
-    <router-outlet></router-outlet>
-    </main>
+<main>
+  <router-outlet></router-outlet>
+</main>
 
 <footer class="nga-footer">
-  <div class="py-3 text-center" style="background-color: grey;">
+  <div class="py-3 text-center" style="background-color: #353951;">
     <div class="container">
-  <a href="{{ footerUrl }}">{{ footerLink }}</a>
-
-</div>
-</div>
+      <a href="{{ footerUrl }}">{{ footerLink }}</a>
+    </div>
+  </div>
 </footer>
-
-
