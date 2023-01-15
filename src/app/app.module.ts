@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './modules/general/home/home.component';
 
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
+import { ItemsComponent } from './modules/application/items/items.component';
+import { ItemsModule } from './modules/application/items/items.module';
 
 
 @NgModule({
@@ -13,6 +15,7 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
         AppComponent,
         HomeComponent,
         NotFoundComponent,
+        ItemsComponent,
         
     ],
     providers: [],
@@ -21,7 +24,8 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
     ],
     imports: [
         BrowserModule.withServerTransition({ appId: 'serverApp' }),
-        AppRoutingModule
+        AppRoutingModule,
+        ItemsModule
     ]
 })
 export class AppModule { }
