@@ -11,7 +11,8 @@ Angular App project. Generated with Angular CLI, Routing, Lazy Loading, Framewor
 <td>
 
 This project is designed to create a * Web Application with Angular 15 *
-This project outcome is to create a PWA Web Application.
+This project outcome is to create a Progressive Web Application (PWA).
+
 
 
 ## Project Characteristics:
