@@ -25,7 +25,7 @@ import { ItemsModule } from './modules/application/items/items.module';
     imports: [
         BrowserModule.withServerTransition({ appId: 'serverApp' }),
         AppRoutingModule,
-        ItemsModule
+        
     ]
 })
 export class AppModule { }

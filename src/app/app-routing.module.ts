@@ -29,6 +29,13 @@ const routes: Routes = [
       .then(mod => mod.ContactModule)
   },
 
+
+  {
+    path: 'httpclient',
+    loadChildren: () => import('./modules/application/items/items.module')
+      .then(mod => mod.ItemsModule)
+  },
+
   { path: '**', component: NotFoundComponent }
 ];
 
