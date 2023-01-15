@@ -20,7 +20,7 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
       AppComponent,
     ],
     imports: [
-        BrowserModule,
+        BrowserModule.withServerTransition({ appId: 'serverApp' }),
         AppRoutingModule
     ]
 })
