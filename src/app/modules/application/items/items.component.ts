@@ -16,20 +16,23 @@ export class ItemsComponent implements OnInit{
   item: any;
 
   constructor(
-    private itemsService: ItemsService) {
+    private itemsService: ItemsService,
+    @Inject(PLATFORM_ID) private platformId: Object,
+    @Inject(APP_ID) private appId: string) {
       this.loaded = false;
     }
 
-  
-  ngOnInit(): void {
+   ngOnInit(): void {
    this.getUsers();
   }
 
   getUsers(): void {
-    this.loaded = false;
     this.itemsService.getItems('https://jsonplaceholder.typicode.com/users')
     .subscribe(
       items => {
+        const platform = isPlatformBrowser(this.platformId) ?
+        'in the browser' : 'on the server';
+        console.log(`getUsers : Running ${platform} with appId=${this.appId}`);
         this.items = items;
         this.loaded = true;
       }
