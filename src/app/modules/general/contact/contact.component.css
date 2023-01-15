@@ -1,0 +1,103 @@
+/* navbar */
+.navbar .navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: 500;
+    border-top: 1px solid #09238d;
+    border-bottom: 1px solid #09238d;
+}
+
+.nga-navbar {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #2d344e;
+}
+
+  .nga-btn-navbar {
+    color: #fff;
+    background-color: #1976d2;
+    border-color: #0d6efd;
+  }
+  
+  .nga-btn-navbar:hover {
+    color: white;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+  
+  
+  /* Logo */
+  .nga-logo {
+    font-weight: 700;
+  }
+  .nga-logo:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .nga-navbar-logo:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  /* Card */
+  .nga-card {
+    border: 1-x solid rgba(0, 0,  0.125);
+    border-radius: 0.25rem;
+  }
+
+  .nga-card a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  .nga-card a:hover {
+    color: #0d6efd;
+  }
+
+
+.nga-card:hover {
+  border: 1px solid #e8e9ea;
+  color: #0d6efd;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+  /* footer */
+  .nga-footer {
+    background-color: #212121;
+    color: white;
+    margin-bottom: 0;
+    margin-top: auto;
+    position:relative;
+    bottom:0;
+    width:100%;
+   height:70px;   /* Height of the footer */
+  }
+  
+  .nga-footer a {
+    color: white;
+    text-decoration: none
+  }
+  
+  .nga-footer a:hover,
+  .nga-footer a:focus {
+    color: yellow;
+    text-decoration: underline;
+  }
+  
+  .nga-footer .hint {
+    background-color: #1976d2;
+  }
+  
+  .nga-footer .hint:hover {
+    opacity: 0.8;
+  }
+
+  
+h1 {
+    color: rgb(237, 237, 239)
+}
+
+.app {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}

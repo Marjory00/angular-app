@@ -10,31 +10,31 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 
 
 const routes: Routes = [
-  {path: '', component: HomeComponent, },
+  { path: '', component: HomeComponent, },
 
   {
     path: 'about',
-      loadChildren: () => import('./modules/general/about/about.module')
+    loadChildren: () => import('./modules/general/about/about.module')
       .then(mod => mod.AboutModule)
-    },
-  
-  {
-    path: 'contact',
-    loadChildren:() => import('./modules/general/contact/contact.module')
-    .then(mod => mod.ContactModule)
   },
   {
     path: 'login',
-    loadChildren:() => import('./modules/general/login/login.module')
-    .then(mod => mod.LoginModule)
-    },
-    {
+    loadChildren: () => import('./modules/general/login/login.module')
+      .then(mod => mod.LoginModule)
+  },
+  {
     path: 'signup',
-    loadChildren:() => import('./modules/general/signup/signup.module')
-    .then(mod => mod.SignupModule)
-    },
- 
-   { path: '**', component: NotFoundComponent }
+    loadChildren: () => import('./modules/general/signup/signup.module')
+      .then(mod => mod.SignupModule)
+  },
+  
+  {
+    path: 'contact',
+    loadChildren: () => import('./modules/general/contact/contact.module')
+      .then(mod => mod.ContactModule)
+  },
+
+  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({

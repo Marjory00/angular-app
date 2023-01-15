@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Inject, PLATFORM_ID } from '@angular/core';
+import { environment } from '../../../../environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -7,11 +8,14 @@ import { Inject, PLATFORM_ID } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-name: any;
-version: any;
-bootstrap: any;
-fontawesome: any;
+
+footerLink: any;
+footerUrl: any;
   
+   name = environment.application.name;
+  version = environment.application.version;
+  bootstrap = environment.application.bootstrap;
+  fontawesome = environment.application.fontawesome;
 
   constructor(
     @Inject(PLATFORM_ID) private platformId: object) {
