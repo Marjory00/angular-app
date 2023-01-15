@@ -1,5 +1,5 @@
 {
-  "name": "angular-react-bootstrap",
+  "name": "angular-app-inmo",
   "version": "15.0.4",
   "scripts": {
     "ng": "ng",
@@ -10,10 +10,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "e2e": "protractor config.js",
-    "dev:ssr": "ng run angular-react-bootstrap:serve-ssr",
-    "serve:ssr": "node dist/angular-react-bootstrap/server/main.js",
-    "build:ssr": "ng build && ng run angular-react-bootstrap:server",
-    "prerender": "ng run angular-react-bootstrap:prerender"
+    "dev:ssr": "ng run angular-app-inmo:serve-ssr",
+    "serve:ssr": "node dist/angular-app-inmo/server/main.js",
+    "build:ssr": "ng build && ng run angular-app-inmo:server",
+    "prerender": "ng run angular-app-inmo:prerender"
   },
   "private": true,
   "dependencies": {

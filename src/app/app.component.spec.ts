@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-react-bootstrap'`, () => {
+  it(`should have as title 'angular-app-inmo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-react-bootstrap');
+    expect(app.title).toEqual('angular-app-inmo');
   });
 
   it('should render title', () => {

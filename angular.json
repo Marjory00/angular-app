@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-react-bootstrap": {
+    "angular-app-inmo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-react-bootstrap/browser",
+            "outputPath": "dist/angular-app-inmo/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-react-bootstrap:build:production"
+              "browserTarget": "angular-app-inmo:build:production"
             },
             "development": {
-              "browserTarget": "angular-react-bootstrap:build:development"
+              "browserTarget": "angular-app-inmo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-react-bootstrap:build"
+            "browserTarget": "angular-app-inmo:build"
           }
         },
         "test": {
@@ -111,7 +111,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/angular-react-bootstrap/server",
+            "outputPath": "dist/angular-app-inmo/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json"
           },
@@ -132,12 +132,12 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "angular-react-bootstrap:build:development",
-              "serverTarget": "angular-react-bootstrap:server:development"
+              "browserTarget": "angular-app-inmo:build:development",
+              "serverTarget": "angular-app-inmo:server:development"
             },
             "production": {
-              "browserTarget": "angular-react-bootstrap:build:production",
-              "serverTarget": "angular-react-bootstrap:server:production"
+              "browserTarget": "angular-app-inmo:build:production",
+              "serverTarget": "angular-app-inmo:server:production"
             }
           },
           "defaultConfiguration": "development"
@@ -151,12 +151,12 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-react-bootstrap:build:production",
-              "serverTarget": "angular-react-bootstrap:server:production"
+              "browserTarget": "angular-app-inmo:build:production",
+              "serverTarget": "angular-app-inmo:server:production"
             },
             "development": {
-              "browserTarget": "angular-react-bootstrap:build:development",
-              "serverTarget": "angular-react-bootstrap:server:development"
+              "browserTarget": "angular-app-inmo:build:development",
+              "serverTarget": "angular-app-inmo:server:development"
             }
           },
           "defaultConfiguration": "production"
