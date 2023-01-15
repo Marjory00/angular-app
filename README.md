@@ -3,6 +3,7 @@
 ## Description:
 Angular App project. Generated with Angular CLI, Routing, Lazy Loading, Framework CSS Bootstrap, Server Side Rendering, HttpClient.
 
+
  # angular-app-inmo
 
 <table>
@@ -25,6 +26,11 @@ This project outcome is to create a PWA Web Application.
 </td>
 </tr>
 </table>
+
+
+
+<img width="750" alt="angular-app-inmo" src="https://i.postimg.cc/brC613Tt/p12.png">
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
