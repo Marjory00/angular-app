@@ -11,6 +11,7 @@ export class ItemsComponent implements OnInit{
 
   items: any;
   loaded: boolean = false;
+item: any;
 
   constructor(
     private itemsService: ItemsService) {
