@@ -8,18 +8,18 @@
 <tr>
 <td>
 
-This project is designed to create a ** Web Application with Angular 15** 
+This project is designed to create a * Web Application with Angular 15 *
+This project outcome is to create a PWA Web Application.
 
-Project Characteristics:
+
+## Project Characteristics:
 
 * Generated with Angular CLI
 * Routing
-*  Lazy Loading
+* Lazy Loading
 * Framework CSS Bootstrap
 * Server Side Rendering
-* HttpCLient
-* Frontend
-* Backend
+* HttpClient
 
 </td>
 </tr>
