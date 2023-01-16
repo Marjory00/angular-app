@@ -17,6 +17,19 @@ footerUrl: any;
   bootstrap = environment.application.bootstrap;
   fontawesome = environment.application.fontawesome;
 
+  items = [
+    {
+      icon: "fa-solid fa-file-lines",
+      name: "Landing Page",
+      description: "CSS linear-gradient",
+      link: '/landing-page'
+    },
+    {
+      icon: "fa-solid fa-address-card",
+      
+    }
+  ]
+
   constructor(
     @Inject(PLATFORM_ID) private platformId: object) {
     }
