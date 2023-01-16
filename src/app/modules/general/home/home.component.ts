@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Inject, PLATFORM_ID } from '@angular/core';
 import { environment } from '../../../../environments/environment';
+import { Feature } from './feature';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -8,51 +10,63 @@ import { environment } from '../../../../environments/environment';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  
 
 footerLink: any;
 footerUrl: any;
   
-   name = environment.application.name;
+  name = environment.application.name;
   version = environment.application.version;
   bootstrap = environment.application.bootstrap;
   fontawesome = environment.application.fontawesome;
 
-  items = [
-    {
-      img: "'./assets/params/images/img/pexels-mart-production-7709235.jpg'",
-      name: "Persona-1",
-      description: "Team",
-      title: '/member'
-    },
-    {
-      img: "'../src/assets/params/img/pexels-eberer-3389613.jpg'",
-      name: "Persona-2",
-      description: "Team",
-      title: '/member'
+  features: Array<Feature> = [];
 
-    },
-    {
-      img: "'./assets/params/images/example-bootstrap/movie-screen.jpg'",
-      name: "Persona-3",
-      description: "Team",
-      title: '/member'
-    },
-    {
-      img: "'../src/assets/params/img/pexels-eberer-3389613.jpg'",
-      name: "Persona-4",
-      description: "Team",
-      title: '/member'
+  item: any;
 
-    },
-  ]
-item: any;
 
   constructor(
     @Inject(PLATFORM_ID) private platformId: object) {
+    
+  this.features = [
+    {
+      type: 'CRUD',
+      name: "Persona-1",
+      description: 'CRUD, API Rest, Components, Pages, Extends',
+      image: "pexels-andrea-piacquadio-733872.jpg",
+      link: '/images'
+    },
+    {
+      type: 'CRUD',
+      name: "Persona-1",
+      description: 'CRUD, API Rest, Components, Pages, Extends',
+      image: "pexels-daniel-xavier-1239291.jpg",
+      link: '/images'
+    },
+    {
+      type: 'CRUD',
+      name: "Persona-1",
+      description: 'CRUD, API Rest, Components, Pages, Extends',
+      image: "pexels-christina-morillo-1181519.jpg",
+      link: '/images'
+    },
+    {
+      type: 'CRUD',
+      name: "Persona-1",
+      description: 'CRUD, API Rest, Components, Pages, Extends',
+      image: "pexels-rodnae-productions-7821936.jpg",
+      link: '/images'
+    },
+  ]
     }
-  
   ngOnInit(): void {
-  
+    throw new Error('Method not implemented.');
+  }
 
+  
 }
+
+function ngOnInit() {
+  throw new Error('Function not implemented.');
 }
+

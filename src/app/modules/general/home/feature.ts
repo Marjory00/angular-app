@@ -4,7 +4,7 @@ export class Feature {
     name: string | undefined;
     description: string | undefined;
     image: string | undefined;
-    title: string;
+    link: string;
 
 
     constructor() {
@@ -12,7 +12,7 @@ export class Feature {
         this.name = '';
         this.description = '';
         this.image = '';
-        this.title = '';
+        this.link = '';
     }
 
 }
