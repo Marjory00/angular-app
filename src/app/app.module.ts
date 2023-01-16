@@ -11,12 +11,16 @@ import { ItemsModule } from './modules/application/items/items.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
+import { FooterModule } from './components/footer/footer.module';
+import { HeaderModule } from './components/header/header.module';
+
 
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
         NotFoundComponent,
+       
     ],
     providers: [],
     bootstrap: [
@@ -27,12 +31,16 @@ import { ServiceWorkerModule } from '@angular/service-worker';
         AppRoutingModule,
         HttpClientModule,
         BrowserModule,
+        
+        HeaderModule,
         ServiceWorkerModule.register('ngsw-worker.js', {
           enabled: !isDevMode(),
           // Register the ServiceWorker as soon as the application is stable
           // or after 30 seconds (whichever comes first).
           registrationStrategy: 'registerWhenStable:30000'
-        })
+        }),
+        
+       
     ]
 })
 export class AppModule { }
