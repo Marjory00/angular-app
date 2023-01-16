@@ -28,6 +28,8 @@
 /* Logo */
 .nga-logo {
   font-weight: 700;
+  height: 55px;
+  
 }
 .nga-logo:hover {
   color: rgba(255, 255, 255, 0.75);
