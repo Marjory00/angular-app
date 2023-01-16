@@ -132,7 +132,7 @@ h1 {
 }
 
 
-.banner h1 {
+.banner .intro-text h1 {
   text-align: center;
   font-size: 50px;
   font-weight: 500;
@@ -150,21 +150,51 @@ h1 {
   font-family: 'Oswald', sans-serif;
 }
 
+.banner .intro-text .sub-title {
+  color: #5a5858;
+  font-size: 35px;
+}
 
-.btn-primary {
+.banner .intro-text p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: 3px;
+  margin-bottom: 55px;-webkit-animation: bounceInLeft;
+  -moz-animation: fadeInLeft;
+  -o-animation: fadeInLeft;
+  animation: bounceLeft;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.banner .intro-text .btn-primary {
+  padding: 15px 20px;
   background: #2c3a7f;
   border-color: #2c3a7f;
+  color: #fff;
   font-size: 16px;
-  padding: 8px 15px;
+  border-radius: 1;
+  
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  left:55%;
+  position: absolute;
+  z-index: 2;
 }
 
-.btn-primary:hover {
+.banner .intro-text .btn-primary:hover {
   background: transparent;
   border-color: #ff432e;
   color: #ff432e;
 }
 
+
+.banner .intro-text h1 span {
+  color: #ff432e;
+}

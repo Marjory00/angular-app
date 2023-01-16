@@ -19,22 +19,33 @@ footerUrl: any;
 
   items = [
     {
-      icon: "fa-solid fa-file-lines",
-      name: "Landing Page",
-      description: "CSS linear-gradient",
-      link: '/landing-page'
+      img: "'./assets/params/images/img/pexels-mart-production-7709235.jpg'",
+      name: "Persona-1",
+      description: "Team",
+      title: '/member'
     },
     {
-      icon: "fa-solid fa-address-card",
-      name: "Image Cards",
-      description: "Cascade Cards",
-      link: '/cards'
+      img: "'../src/assets/params/img/pexels-eberer-3389613.jpg'",
+      name: "Persona-2",
+      description: "Team",
+      title: '/member'
 
     },
     {
-      
-    }
+      img: "'./assets/params/images/example-bootstrap/movie-screen.jpg'",
+      name: "Persona-3",
+      description: "Team",
+      title: '/member'
+    },
+    {
+      img: "'../src/assets/params/img/pexels-eberer-3389613.jpg'",
+      name: "Persona-4",
+      description: "Team",
+      title: '/member'
+
+    },
   ]
+item: any;
 
   constructor(
     @Inject(PLATFORM_ID) private platformId: object) {

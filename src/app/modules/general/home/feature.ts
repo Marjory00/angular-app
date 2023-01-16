@@ -1,16 +1,18 @@
 export class Feature {
 
+    type: string | undefined;
     name: string | undefined;
     description: string | undefined;
-    icon: string | undefined;
-    link: string | undefined;
+    image: string | undefined;
+    title: string;
 
 
     constructor() {
+        this.type = '';
         this.name = '';
         this.description = '';
-        this.icon = '';
-        this.link = '';
+        this.image = '';
+        this.title = '';
     }
 
 }
