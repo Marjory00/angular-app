@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +9,7 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 import { ItemsComponent } from './modules/application/items/items.component';
 import { ItemsModule } from './modules/application/items/items.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 
 @NgModule({
@@ -25,7 +26,13 @@ import { HttpClientModule } from '@angular/common/http';
         BrowserModule.withServerTransition({ appId: 'serverApp' }),
         AppRoutingModule,
         HttpClientModule,
-        BrowserModule
+        BrowserModule,
+        ServiceWorkerModule.register('ngsw-worker.js', {
+          enabled: !isDevMode(),
+          // Register the ServiceWorker as soon as the application is stable
+          // or after 30 seconds (whichever comes first).
+          registrationStrategy: 'registerWhenStable:30000'
+        })
     ]
 })
 export class AppModule { }
