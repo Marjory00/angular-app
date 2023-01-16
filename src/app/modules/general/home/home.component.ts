@@ -26,6 +26,12 @@ footerUrl: any;
     },
     {
       icon: "fa-solid fa-address-card",
+      name: "Image Cards",
+      description: "Cascade Cards",
+      link: '/cards'
+
+    },
+    {
       
     }
   ]

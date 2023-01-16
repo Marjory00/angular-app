@@ -104,3 +104,67 @@ h1 {
   max-width: 1000px;
   margin: auto;
 }
+
+
+/* Banner */
+
+.intro-text {
+  position: relative;
+  padding: 20% 0 15% 0;
+}
+
+.display-4 {
+  color:#212121;
+
+}
+
+.banner {
+  position: relative;
+  padding: 20% 0 15% 0;
+  background: url(src/assets/params/img/pexels-eberer-3389613.jpg) no-repeat;
+  background-attachment: scroll;
+  color: #343333;
+  background-position: center;
+  -webkit-background: cover;
+  -moz-background: cover;
+  -o-background: cover;
+  background-size: cover;
+}
+
+
+.banner h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 55px;
+  -webkit-animation: bounceIn;
+  -moz-animation: rubberBand;
+  -o-animation: bounceIn;
+  animation: bounceIn;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.btn-primary {
+  background: #2c3a7f;
+  border-color: #2c3a7f;
+  font-size: 16px;
+  padding: 8px 15px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: #ff432e;
+  color: #ff432e;
+}
+
