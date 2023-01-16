@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://marjory00.github.io/Marjory00.github/
