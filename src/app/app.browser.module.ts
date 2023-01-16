@@ -4,11 +4,21 @@ import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-bro
 import { AppModule } from './app.module';
 import { AppComponent } from './app.component';
 
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
+
+
 @NgModule({
     imports: [
         AppModule,
         BrowserModule.withServerTransition({ appId: 'angular-app-inmo' }),
-        BrowserTransferStateModule
+        BrowserTransferStateModule,
+        ServiceWorkerModule.register('ngsw-worker.js', {
+            enabled: environment.production,
+    // Register the ServiceWorker as soon as the app is stable
+    // or after 30 seconds (whichever comes first).
+    registrationStrategy: 'registerWhenStable:30000'
+        })
     ],
     bootstrap: [AppComponent],
 })
