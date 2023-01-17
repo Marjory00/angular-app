@@ -12,8 +12,6 @@ Angular Bootstrap App project.
 ![App Screenshot](https://i.postimg.cc/tTNgXGJN/website-screen.png)
 
 
-<img width="750" alt="angular-app-inmo" src="https://i.postimg.cc/tTNgXGJN/website-screen.png">
-
 
 ## Roadmap
 
