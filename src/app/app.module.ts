@@ -31,6 +31,7 @@ import { HeaderModule } from './components/header/header.module';
         BrowserModule,
         HeaderModule,
         FooterModule,
+      
         ServiceWorkerModule.register('ngsw-worker.js', {
             enabled: !isDevMode(),
             // Register the ServiceWorker as soon as the application is stable

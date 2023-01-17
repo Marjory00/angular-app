@@ -6,10 +6,35 @@
   border-bottom: 1px solid #09238d;
 }
 
+/* navbar-text link */
+
+.navbar ul li.active > a {
+color: #2e2b2b;
+/*font-weight: bold; */
+font-size: 15px;
+transition: 0.3s all;
+}
+
+.navbar ul li a{
+color: #2e2b2b;
+margin: 10px 0px 0px 10px;
+text-transform: uppercase;
+font-size: 15px;
+transition: 0.3s all;
+}
+.navbar ul li a .fas{
+padding-right:5px; 
+padding-left:5px; 
+transition: 0.3s all;
+}
+.navbar ul li a:hover{
+color: #e7c320;
+}
+
 .nga-navbar {
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
-  background-color: #2d344e;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(126, 123, 123, 0.16), 0 11px 10px 0 rgba(156, 152, 152, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(133, 131, 131, 0.16), 0 11px 10px 0 rgba(141, 135, 135, 0.12);
+  background-color: #fff;
 }
 
 .nga-btn-navbar {
@@ -17,6 +42,7 @@
   background-color: #1976d2;
   border-color: #0d6efd;
 }
+
 
 .nga-btn-navbar:hover {
   color: white;
@@ -29,6 +55,10 @@
 .nga-logo {
   font-weight: 700;
 }
+
+.navbar-logo {
+  margin-top: 15px !important;
+}
 .nga-logo:hover {
   color: rgba(255, 255, 255, 0.75);
 }
@@ -36,6 +66,14 @@
 .nga-navbar-logo:hover {
   color: rgba(255, 255, 255, 0.75);
 }
+
+/* navbar button */
+.navbar .btn-login {
+  color: #fff;
+  background-color: #2e18f1;
+  border-color: #2e18f1;
+}
+  
 
 /* Card */
 .nga-card {
