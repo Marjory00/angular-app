@@ -10,7 +10,6 @@ import { isPlatformBrowser } from '@angular/common';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  
 
 footerLink: any;
 footerUrl: any;
@@ -31,28 +30,28 @@ footerUrl: any;
   this.features = [
     {
       type: 'CRUD',
-      name: "Persona-1",
+      name: "Persona",
       description: 'CRUD, API Rest, Components, Pages, Extends',
       image: "pexels-andrea-piacquadio-733872.jpg",
       link: '/images'
     },
     {
       type: 'CRUD',
-      name: "Persona-1",
+      name: "Persona",
       description: 'CRUD, API Rest, Components, Pages, Extends',
       image: "pexels-daniel-xavier-1239291.jpg",
       link: '/images'
     },
     {
       type: 'CRUD',
-      name: "Persona-1",
+      name: "Persona",
       description: 'CRUD, API Rest, Components, Pages, Extends',
       image: "pexels-christina-morillo-1181519.jpg",
       link: '/images'
     },
     {
       type: 'CRUD',
-      name: "Persona-1",
+      name: "Persona",
       description: 'CRUD, API Rest, Components, Pages, Extends',
       image: "pexels-rodnae-productions-7821936.jpg",
       link: '/images'

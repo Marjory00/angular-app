@@ -123,14 +123,34 @@
   font-family: 'Oswald', sans-serif;
 }
 
+
+.banner .intro-text h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  -webkit-animation: bounceIn;
+  -moz-animation: rubberBand;
+  -o-animation: bounceIn;
+  animation: bounceIn;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+  font-family: 'Oswald', sans-serif;
+}
+
+
 .banner .intro-text .sub-title {
   color: #5a5858;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .banner .intro-text p {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 35px;
   letter-spacing: 3px;
@@ -167,9 +187,14 @@
   color: #ff432e;
 }
 
+/* Banner Creative Letter */
+.banner .intro-text h2 span {
+  color: #fff;
+  box-shadow: #09238d;
+  display: inline-block;
+  font-weight: 600;
+  background-color: #5e5e5f;
 
-.banner .intro-text h1 span {
-  color: #ff432e;
 }
 
   /* ================= Card ================== */
@@ -197,7 +222,14 @@ transition: box-shadow 0.3s ease-in-out;
 
 }
 
+/* Card name */
+.card-name {
+  font-size: 20px;
+  color: grey;
 
+}
+
+/* Card Box-Shadow */
 
 .style-07 {
   position: relative;
