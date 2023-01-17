@@ -34,7 +34,7 @@ This project outcome is to create a Progressive Web Application (PWA).
 
 
 
-<img width="750" alt="angular-app-inmo" src="https://i.postimg.cc/brC613Tt/p12.png">
+<img width="750" alt="angular-app-inmo" src="https://i.postimg.cc/tTNgXGJN/website-screen.png">
 
 
 
