@@ -1,20 +1,33 @@
-# Angular 15 Project
 
-## Description:
-Angular App project. 
+# Angular-app-inmo
+
+Angular Bootstrap App project. 
 * This project is designed to create a Progressive Web Application (PWA).
 
 * Generated with Angular CLI, Routing, Lazy Loading, Framework CSS, Bootstrap 5, Server Side Rendering, HttpClient, Transfer state, Progressive Web App.
 
- # angular-app-inmo
 
-<table>
-<tr>
-<td>
+## Screenshots
 
-## Project Characteristics:
+![App Screenshot](https://i.postimg.cc/tTNgXGJN/website-screen.png)
 
-## Front-End:
+
+<img width="750" alt="angular-app-inmo" src="https://i.postimg.cc/tTNgXGJN/website-screen.png">
+
+
+## Roadmap
+
+- Angular 15.0.3
+- Angular CLI 15.0.3
+- Angular Universal 15.0.0
+- Bootstrap 5.2.3
+- Font Awesome 6.2.1
+- Node.js 16.15.0
+- Express 4.18.1
+- pg-promise 10.10.2
+
+
+### Front-End:
 * Angular CLI
 * Search Engine Optimization
 * Routing
@@ -26,9 +39,9 @@ Angular App project.
 * HttpClient
 * Transfer state
 * Progressive Web App
-<br>
 
-## Back-End:
+
+### Back-End:
 * Local JSON
 * RESTFull API
 * CRUD API
@@ -36,12 +49,24 @@ Angular App project.
 * Data Import
 * Data Export
 
-</td>
-</tr>
-</table>
+
+## Features
+
+- Responsive Design
+- Live previews
+- Fullscreen mode
+- Cross platform
 
 
-<img width="750" alt="angular-app-inmo" src="https://i.postimg.cc/tTNgXGJN/website-screen.png">
+## Documentation
+
+[Documentation](https://angular.io/guide/universal)
+
+
+
+## Authors
+
+- [@Marjory00](https://github.com/Marjory00)
 
 
 
