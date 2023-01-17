@@ -13,10 +13,11 @@ Angular App project.
 <tr>
 <td>
 
+# ## Project Characteristics:
 
-
-## Project Characteristics:
-
+# Front-End:
+* Angular CLI
+* Search Engine Optimization
 * Routing
 * Lazy loading
 * Bootstrap
@@ -26,7 +27,14 @@ Angular App project.
 * HttpClient
 * Transfer state
 * Progressive Web App
-
+<br>
+# Back-End:
+* Local JSON
+* RESTFull API
+* CRUD API
+* Database Creation
+* Data Import
+* Data Export
 
 </td>
 </tr>
