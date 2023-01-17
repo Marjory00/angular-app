@@ -12,10 +12,9 @@ Angular Bootstrap App project.
 ![App Screenshot](https://i.postimg.cc/tTNgXGJN/website-screen.png)
 
 
-
 ## Roadmap
 
-- Angular 15.0.3
+- Angular 15.0.3 
 - Angular CLI 15.0.3
 - Angular Universal 15.0.0
 - Bootstrap 5.2.3
@@ -48,18 +47,9 @@ Angular Bootstrap App project.
 * Data Export
 
 
-## Features
-
-- Responsive Design
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-
 ## Documentation
 
 [Documentation](https://angular.io/guide/universal)
-
 
 
 ## Authors
