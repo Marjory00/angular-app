@@ -1,7 +1,10 @@
 # Angular 15 Project
 
 ## Description:
-Angular App project. Generated with Angular CLI, Routing, Lazy Loading, Framework CSS Bootstrap, Server Side Rendering, HttpClient, Transfer state, Progressive Web App.
+Angular App project. 
+* This project is designed to create a Progressive Web Application (PWA).
+
+* Generated with Angular CLI, Routing, Lazy Loading, Framework CSS, Bootstrap 5, Server Side Rendering, HttpClient, Transfer state, Progressive Web App.
 
 
  # angular-app-inmo
@@ -9,9 +12,6 @@ Angular App project. Generated with Angular CLI, Routing, Lazy Loading, Framewor
 <table>
 <tr>
 <td>
-
-This project is designed to create a * Web Application with Angular 15 *
-This project outcome is to create a Progressive Web Application (PWA).
 
 
 
