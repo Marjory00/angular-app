@@ -13,9 +13,9 @@ Angular App project.
 <tr>
 <td>
 
-# ## Project Characteristics:
+## Project Characteristics:
 
-# Front-End:
+## Front-End:
 * Angular CLI
 * Search Engine Optimization
 * Routing
@@ -28,7 +28,8 @@ Angular App project.
 * Transfer state
 * Progressive Web App
 <br>
-# Back-End:
+
+## Back-End:
 * Local JSON
 * RESTFull API
 * CRUD API
@@ -39,7 +40,6 @@ Angular App project.
 </td>
 </tr>
 </table>
-
 
 
 <img width="750" alt="angular-app-inmo" src="https://i.postimg.cc/tTNgXGJN/website-screen.png">
