@@ -6,7 +6,6 @@ Angular App project.
 
 * Generated with Angular CLI, Routing, Lazy Loading, Framework CSS, Bootstrap 5, Server Side Rendering, HttpClient, Transfer state, Progressive Web App.
 
-
  # angular-app-inmo
 
 <table>
