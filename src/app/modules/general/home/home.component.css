@@ -90,17 +90,20 @@
 
 }
 
+
 .banner {
   position: relative;
   padding: 20% 0 15% 0;
-  background: url(src/assets/params/img/pexels-9613.jpg) no-repeat;
+  /* background: url(src/assets/params/img/pexels-ksenia-chernaya-5691475.jpg) no-repeat; */
   background-attachment: scroll;
   color: #343333;
   background-position: center;
+  /*
   -webkit-background: cover;
   -moz-background: cover;
   -o-background: cover;
-  background-size: cover;
+  background-size: cover;  
+  */
   
 }
 
