@@ -1,104 +1,69 @@
-/* navbar */
-.navbar .navbar-dark .navbar-nav .nav-item .nav-link {
+
+/* ============ LOGIN PAGE ========== */
+ .login h1 {
     color: #fff;
+    font-size: 24px;
+    margin-top: auto;
+    
+  }
+  .btn-nga {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    -webkit-border-radius: 0.125rem;
+    border-radius: 0.125rem;
+  }
+  
+  .btn-nga:hover,
+  .btn-nga:active,
+  .btn-nga:focus {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    color: #4285f4;
+    font-weight: bold;
+  }
+  
+  .btn-nga-primary {
+    border: 2px solid #4285f4;
+    color: #4285f4;
+    background-color: transparent;
+  }
+  
+  .edit-error {
+    font-size: 0.9rem;
     font-weight: 500;
-    border-top: 1px solid #09238d;
-    border-bottom: 1px solid #09238d;
+    color: red;
   }
   
-  .nga-navbar {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
-    background-color: #2d344e;
+  .card-nga {
+    display: block;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    border-radius: 2px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
   }
   
-  .nga-btn-navbar {
-    color: #fff;
-    background-color: #1976d2;
-    border-color: #0d6efd;
+  .card-nga:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
   }
   
-  .nga-btn-navbar:hover {
+  .card-header {
+    background-color: #4285f4;
     color: white;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
   }
   
-  
-  /* Logo */
-  .nga-logo {
-    font-weight: 700;
-  }
-  .nga-logo:hover {
-    color: rgba(255, 255, 255, 0.75);
-  }
-  
-  .nga-navbar-logo:hover {
-    color: rgba(255, 255, 255, 0.75);
-  }
-  
-  /* Card */
-  .nga-card {
-    border: 1-x solid rgba(0, 0,  0.125);
-    border-radius: 0.25rem;
-  }
-  
-  .nga-card a {
+  a {
     color: #0d6efd;
     text-decoration: none;
   }
   
-  .nga-card a:hover {
+  a:hover {
     color: #0d6efd;
+    font-weight: bold;
   }
-  
-  
-  .nga-card:hover {
-  border: 1px solid #e8e9ea;
-  color: #0d6efd;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-  transition: box-shadow 0.3s ease-in-out;
-  }
-  
-  /* footer */
-  .nga-footer {
-    background-color: #353951;
-    color: white;
-    margin-bottom: 0;
-    position: absolute;
-    bottom: auto;
-    width: 100%;
-    
-    overflow-x: hidden;
-    padding:0;
-    margin:0;
-    height:70px;   /* Height of the footer */
-  }
-  
-  .nga-footer a {
-    color: white;
-    text-decoration: none
-  }
-  
-  .nga-footer a:hover,
-  .nga-footer a:focus {
-    color: yellow;
-    text-decoration: underline;
-  }
-  
-  .nga-footer .hint {
-    background-color: #1976d2;
-  }
-  
-  .nga-footer .hint:hover {
-    opacity: 0.8;
-  }
-  
-  
-  h1 {
-    color: rgb(237, 237, 239)
-  }
-  
+
+  /* Other */
   .app {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1000px;
