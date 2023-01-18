@@ -8,15 +8,17 @@ describe('FooterComponent', () => {
   let component: FooterComponent;
   let fixture: ComponentFixture<FooterComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
+  beforeEach((() => {
+    TestBed.configureTestingModule({
       imports: [
         RouterTestingModule,
       ],
       declarations: [ FooterComponent ]
     })
     .compileComponents();
+  }));
 
+    beforeEach(() => {
     fixture = TestBed.createComponent(FooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
