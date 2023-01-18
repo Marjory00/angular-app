@@ -98,48 +98,59 @@ margin-left: auto;
 
 /* =============== Social Links ============== */
 
-.socials-links {
-  margin-top: 20px;
-  }
-
-  .list-inline {
-    padding-left: 0;
-    list-style: none;
-    }
-
-    ul {
-      margin-top: 0;
-      margin-bottom: 1rem;
-      }
-
-      ul, menu, dir {
-        display: block;
-        list-style-type: disc;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 40px;
-        }
-
-      .socials-links li a.active {
-        color: #fff !important;
-       }
-
-     .about-banner .socials-links li a {
-      color: #848485;
-       }
-
-      .socials-links li a {
-      text-align: center;
-      color: #fff;
-      }
-
-     a {
-      color: #007bff;
-     }
+.nga-btn-about {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 47px;
+  height: 47px
+}
 
 
+.nga-btn-about i {
+  font-size: 1.25rem;
+  line-height: 47px;
+  display: inline-block;
+  width: inherit;
+  color: #fff;
+  text-align: center
+}
+
+
+.nga-btn-about:hover {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.nga-btn-about i:hover {
+  color: rgb(133, 130, 130);
+}
+
+
+.nga-btn-github {
+  background-color: #333;
+}
+
+.nga-btn-linkedin {
+  background-color: #0082ca;
+}
+
+.nga-btn-twitter {
+  background-color: #55acee;
+}
+
+
+/* ======= Other ========= */
 body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
