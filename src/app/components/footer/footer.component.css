@@ -5,14 +5,16 @@
     background-color: #353951;
     color: white;
     margin-bottom: 0;
-    position: absolute;
+    display: flex;
     bottom: auto;
     width: 100%;
-    
+    position: absolute;
     overflow-x: hidden;
     padding:0;
     margin:0;
-    height:70px;   /* Height of the footer */
+    min-height: 68vh; /* Height of the footer */
+    height: 100px;   /* Height of the footer */
+    flex-direction: column;
   }
   
   .nga-footer a {
