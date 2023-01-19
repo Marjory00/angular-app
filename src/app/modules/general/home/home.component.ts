@@ -3,6 +3,8 @@ import { Inject, PLATFORM_ID } from '@angular/core';
 import { environment } from '../../../../environments/environment';
 import { Feature } from './feature';
 import { isPlatformBrowser } from '@angular/common';
+import { Meta, Title } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-home',
@@ -23,8 +25,9 @@ footerUrl: any;
 
   item: any;
 
-
   constructor(
+    private meta: Meta,
+    private titleService: Title,
     @Inject(PLATFORM_ID) private platformId: object) {
     
   this.features = [
@@ -59,13 +62,31 @@ footerUrl: any;
   ]
     }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
+    if (isPlatformBrowser(this.platformId)) {
+      let navMain = document.getElementById('navbarCollapse');
+      if (navMain) {
+        navMain.onclick = function () {
+          if (navMain) {
+            navMain.classList.remove("show");
+          }
+        }
+      }
+    }
+    this.titleService.setTitle('Angular Application');
+    this.meta.addTag({
+      name: 'angular-app-inmo',
+      content: 'angular'
+
+    });
+    this.meta.updateTag(
+      {
+        name: 'description',
+        content: 'Angular Application' + 
+        'Progressive Web App (PWA)'
+      });
+    
   }
-
   
-}
-
-function ngOnInit() {
-  throw new Error('Function not implemented.');
 }
 
