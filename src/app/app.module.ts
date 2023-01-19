@@ -19,6 +19,7 @@ import { HeaderModule } from './components/header/header.module';
         AppComponent,
         HomeComponent,
         NotFoundComponent,
+      
     ],
     providers: [],
     bootstrap: [
@@ -38,7 +39,7 @@ import { HeaderModule } from './components/header/header.module';
             // or after 30 seconds (whichever comes first).
             registrationStrategy: 'registerWhenStable:30000'
         }),
-      
+    
     ]
 })
 export class AppModule { }
